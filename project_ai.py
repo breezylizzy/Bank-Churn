@@ -15,7 +15,7 @@ def main():
     st.markdown("Bertujuan untuk menganalisis pola perilaku nasabah dan mengidentifikasi tanda-tanda yang menunjukkan kemungkinan mereka akan menghentikan penggunaan layanan bank. Dengan menggunakan algoritma machine learning dan analisis data, bank dapat mengantisipasi kehilangan nasabah dan mengambil langkah-langkah proaktif untuk meningkatkan retensi nasabah.")
     
     # Adding a logo or header image
-    st.image("C:/Project AI/image.png", use_column_width=True)
+    st.image("image.png", use_column_width=True)
 
     # Allow the user to select the algorithm
     st.sidebar.header("Model Selection")
@@ -84,7 +84,7 @@ def main():
     # Footer Section
     st.sidebar.markdown("---")
     st.sidebar.markdown("### About")
-    st.sidebar.image("C:/Project AI/image 2.png", use_column_width=True)
+    st.sidebar.image("image 2.png", use_column_width=True)
     st.sidebar.info("© 2025 - Artificial Intelligence | Group 3 2023C")
 
 if __name__ == "__main__":
